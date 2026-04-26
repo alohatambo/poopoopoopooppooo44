@@ -1,0 +1,6 @@
+{
+  "name": "WhichSide",
+  "description": "Find out which side to drive, walk, and stand on the escalator in every country.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

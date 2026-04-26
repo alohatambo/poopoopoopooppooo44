@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Space Grotesk", sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+}
+
+@utility bg-polka {
+  background-image: radial-gradient(rgba(0,0,0,0.15) 2px, transparent 0);
+  background-size: 32px 32px;
+}
+
+@utility brutal-shadow {
+  box-shadow: 8px 8px 0px 0px rgba(0,0,0,1);
+}
+
+@utility brutal-shadow-sm {
+  box-shadow: 4px 4px 0px 0px rgba(0,0,0,1);
+}
+
+@utility brutal-shadow-lg {
+  box-shadow: 16px 16px 0px 0px rgba(0,0,0,1);
+}
+
+@utility brutal-shadow-none {
+  box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);
+}
+
